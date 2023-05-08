@@ -7,7 +7,7 @@ let current = 1;
 let maxSlide = 6;
 let widthSlide = 370;
 
-rightArrow.addEventListener("swipe", () => {
+rightArrow.addEventListener("click", () => {
     let shift = -current * widthSlide;
 
     if (current < (maxSlide - 1)) {
@@ -24,7 +24,7 @@ rightArrow.addEventListener("swipe", () => {
     sliderItems.style.transform = `translateX(${shift}px)`;
 })
 
-leftArrow.addEventListener("swiped", () => {
+leftArrow.addEventListener("click", () => {
     let shift = -(current-1) * widthSlide;
 
     if (current > -1) {

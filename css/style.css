@@ -1112,6 +1112,7 @@ form {
     .show {
         display: block;
         text-align: center;
+        transition: all 0.3s;
     }
 
     .mainmenu__list {
@@ -1178,8 +1179,51 @@ form {
 }
 
 @media (max-width: 660px) {
+    .form-section {
+        justify-content: center;
+    }
+
+    .input__button {
+        margin: 0 auto;
+        width: 400px
+    }
+
     .third-section__content {
-        padding: 10px;
-        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .third-section__title,
+    .third-section__text
+    {
+        padding: 0 30px;
+    }
+
+    .third-section__button,
+    .fourth-section__button {
+        margin: 20px 30px;
+    }
+
+    /* 
+    .fourth-section__text-content {
+        padding: 0 30px;
+    } */
+
+    .fourth-section__text {
+        padding: 0 30px;
+        text-align: justify;
+    }
+
+    .fourth-section__title {
+        margin: 20px 30px;
+        padding: 10px 0;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 640px) {
+    .fourth-section__title {
+        font-size: 36px;
+        padding: 0 20px;
     }
 }

@@ -585,9 +585,8 @@ ul {
 }
 
 .fourth-section__content {
-    display: flex;
-    flex-direction: row;
     margin-top: 57px;
+
 }
 
 .fourth-section__text-content {
@@ -986,7 +985,6 @@ form {
 @media (max-width: 1190px) {
     .container {
         width: auto;
-        padding: 0 auto;
     }
 /* 
     .content-image,
@@ -1193,15 +1191,9 @@ form {
         justify-content: center;
     }
 
-    .third-section__title,
-    .third-section__text
-    {
-        padding: 0 30px;
-    }
-
     .third-section__button,
     .fourth-section__button {
-        margin: 20px 30px;
+        margin-bottom: 10px;
     }
 
     /* 
@@ -1210,20 +1202,92 @@ form {
     } */
 
     .fourth-section__text {
-        padding: 0 30px;
         text-align: justify;
     }
 
     .fourth-section__title {
-        margin: 20px 30px;
         padding: 10px 0;
         text-align: justify;
     }
 }
 
 @media (max-width: 640px) {
+    .third-section__title {
+        font-size: 36px;
+    }
+
+    
     .fourth-section__title {
         font-size: 36px;
+    }
+}
+
+@media (max-width: 610px) {
+    .service__title, 
+    .service__text {
+        padding: 0 50px;
+    }
+
+    .service__title {
+        font-size: 40px;
+    }
+
+    .service__text {
+        font-size: 14px;
+    }
+
+    .third-section__text {
+        width: 90%;
+    }
+
+    .third-section__title {
+        font-size: 24px;
+        padding: 0 30px;
+    }
+
+    .third-section__text {
+        font-size: 14px;
+        padding: 0 30px;
+    }
+
+    .third-section__button {
+        margin: 30px;
+    }
+
+    
+    .fourth-section__title {
+        font-size: 24px;
+        padding: 0 30px;
+    }
+
+    .fourth-section__text {
+        padding: 0 30px;
+        font-size: 14px;
+    }
+
+    .fourth-section__button {
+        margin: 30px;
+    }
+
+    .fourth-section__content {
         padding: 0 20px;
     }
+
+    .fourth-section__text-content
+    {
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .fourth-section__title {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .fourth-section__text {
+        margin-top: 50px;
+    }
+
+
+    
 }

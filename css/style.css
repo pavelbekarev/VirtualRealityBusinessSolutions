@@ -290,6 +290,8 @@ ul {
     flex-shrink: 0;
 }
 
+
+
 .slider__items {
     display: flex;
     flex-direction: row;
@@ -324,6 +326,8 @@ ul {
     right: 13%;
     top: 60%;
 }
+
+
 
 .arrow-right:active {
     background-color: red;
@@ -615,7 +619,6 @@ ul {
     color: #FFFFFF;
     font-family: 'DMSans-Bold', 'DM Sans', sans-serif;
     width: 582px;
-    height: 110px;
 }
 
 .fourth-section__text {
@@ -690,6 +693,21 @@ ul {
     margin-top: 30px;
     width: 480px;
     height: 51px;
+}
+
+.slider2 {
+    display: none;
+    height: 300px;
+    overflow: hidden;
+    background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+    box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+    border-radius: 34px;
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.slider__arrows2 {
+    display: none;
 }
 
 .team_cards {
@@ -970,7 +988,7 @@ form {
     line-height: 14px;
     color: rgba(255, 255, 255, 0.8);
     font-family: 'Rubik-Regular', 'Rubik-Medium', sans-serif;
-    padding: 0 54px;
+    padding: 0 10px;
 }
 
 
@@ -1125,6 +1143,15 @@ form {
     .logo--img {
         position: fixed;
     }
+
+    .third-section__text-content {
+        margin: 0 20px;
+    }
+
+    .fourth-section__text-content {
+        margin: 0 20px;
+        margin-top: 106px;
+    }
 }
 
 @media (max-width: 780px) {
@@ -1152,6 +1179,10 @@ form {
     .card5,
     .card6 {
         display: none;
+    }
+
+    .form-section {
+        padding: 0 20px;
     }
 
 
@@ -1223,6 +1254,10 @@ form {
 }
 
 @media (max-width: 610px) {
+    .content-items {
+        padding: 0 20px;
+    }
+
     .service__title, 
     .service__text {
         padding: 0 50px;
@@ -1233,7 +1268,7 @@ form {
     }
 
     .service__text {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .third-section__text {
@@ -1241,12 +1276,13 @@ form {
     }
 
     .third-section__title {
+        width: 90%;
         font-size: 24px;
         padding: 0 30px;
     }
 
     .third-section__text {
-        font-size: 14px;
+        font-size: 16px;
         padding: 0 30px;
     }
 
@@ -1254,15 +1290,9 @@ form {
         margin: 30px;
     }
 
-    
-    .fourth-section__title {
-        font-size: 24px;
-        padding: 0 30px;
-    }
-
     .fourth-section__text {
         padding: 0 30px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .fourth-section__button {
@@ -1276,18 +1306,106 @@ form {
     .fourth-section__text-content
     {
         width: 90%;
-        padding-top: 20px;
     }
 
     .fourth-section__title {
         width: 90%;
         margin-bottom: 20px;
+        font-size: 24px;
+        padding: 0 30px;
     }
 
     .fourth-section__text {
         margin-top: 50px;
     }
+}
 
+@media (max-width: 603px) {
+    .team__card1,
+    .team__card2,
+    .team__card3,
+    .team__card4 {
+        display: none;
+    }
 
+    .service__text {
+        width: 90%;
+    }
+
+    .team__arrow-right {
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        right: 13%;
+        top: 60%;
+    }
+
+    .team__arrow-right svg {
+        fill: #fff;
+    }
+
+    .team__arrow-left svg {
+        fill: #fff;
+    }
+
+    .team__arrow-right:active svg {
+        fill: red;
+    }
+
+    .team__arrow-left:active svg {
+        fill: red;
+    }
+
+    .team__arrow-left {
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        left: 13%;
+        top: 60%;
+    }
+
+    .slider2 {
+        display: flex;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    .team__slider__items {
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 1;
+        transform: translateX(0);
+        transition: transform 0.8s ease-out;
+    }
+
+    .team__slider__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 300px;
+        overflow: hidden;
+    }
+
+    .team__card__icons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .slider__arrows2 {
+        display: flex;
+    }
+
+    .footer__list li a span {
+        font-size: 10px;
+    }
+
+    .form-section {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 525px) {
     
 }

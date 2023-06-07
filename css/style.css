@@ -23,7 +23,7 @@ body {
 .container {
     max-width: 1170px;
     margin: 0 auto;
-    border: solid red 2px;
+    /* border: solid red 2px; */
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
@@ -1621,5 +1621,86 @@ form {
 
     .form_title {
         font-size: 26px;
+    }
+}
+
+@media (max-width: 320px) {
+    .joinUs-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .content-h2 {
+        font-size: 26px;
+        line-height: 50px;
+    }
+
+    .content-p {
+        margin-top: 75px;
+    }
+
+    .footer-content {
+        display: none;
+    }
+    
+    .team__slider__item {
+        padding: 20px;
+    }
+
+    .service__title {
+        font-size: 20px;
+    }
+
+    .service__text {
+        font-size: 16px;
+    }
+
+    .fifth-section__text-content {
+        justify-content: center;
+    }
+
+    .third-section__title {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .third-section__text {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .third-section__button {
+        margin: 30px 0;
+    }
+
+    .fourth-section__title {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .fourth-section__text {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .fourth-section__button {
+        margin: 30px 0;
+    }
+
+    .text-content__title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .text-content__text {
+        font-size: 14px;
+    }
+
+    .form_title {
+        font-size: 20px;
+    }
+
+    .input__button {
+        width: 250px;
     }
 }

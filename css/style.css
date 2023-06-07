@@ -1337,7 +1337,7 @@ form {
         background-color: transparent;
         position: absolute;
         right: 13%;
-        top: 60%;
+        top: 55%;
     }
 
     .team__arrow-right svg {
@@ -1361,7 +1361,7 @@ form {
         background-color: transparent;
         position: absolute;
         left: 13%;
-        top: 60%;
+        top: 55%;
     }
 
     .slider2 {
@@ -1406,6 +1406,96 @@ form {
     }
 }
 
+@media (max-width: 590px) {
+    .arrow-left {
+        left: 10%;
+    }
+
+    .arrow-right {
+        right: 10%;
+    }
+
+    .slider {
+        text-align: center;
+        width: 350px;
+    }
+
+    .card__title {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .card__text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 545px) {
+    .arrow-left {
+        left: 5%;
+    }
+
+    .arrow-right {
+        right: 5%;
+    }
+
+    .slider {
+        width: 300px;
+    }
+}
+
 @media (max-width: 525px) {
+    .text-content__text {
+        width: 90%;
+    }
+
+    .footer_bottom-text {
+        font-size: 8px;
+    }
+
+    .footer_bottom-text2 {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 500px) {
+    .team__arrow-left {
+        left: 10%;
+    }
+
+    .team__arrow-right {
+        right: 10%;
+    }
+
     
+}
+
+@media (max-width: 485px) {
+    .arrow-left {
+        left: 1%;
+    }
+
+    .arrow-right {
+        right: 1%;
+    }
+}
+
+@media (max-width: 445px) {
+    .team__arrow-left {
+        left: 5%;
+    }
+
+    .team__arrow-right {
+        right: 5%;
+    }
+}
+
+@media (max-width: 400px) {
+    .team__arrow-left {
+        left: 1%;
+    }
+
+    .team__arrow-right {
+        right: 1%;
+    }
 }

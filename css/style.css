@@ -1416,17 +1416,17 @@ form {
     }
 
     .slider {
-        text-align: center;
         width: 350px;
     }
 
     .card__title {
-        text-align: center;
         font-size: 20px;
+        text-align: center;
     }
 
     .card__text {
         text-align: center;
+        font-size: 14px;
     }
 }
 
@@ -1439,8 +1439,14 @@ form {
         right: 5%;
     }
 
-    .slider {
-        width: 300px;
+    .card__title {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .card__text {
+        text-align: center;
+        font-size: 12px;
     }
 }
 
@@ -1466,8 +1472,6 @@ form {
     .team__arrow-right {
         right: 10%;
     }
-
-    
 }
 
 @media (max-width: 485px) {
@@ -1497,5 +1501,125 @@ form {
 
     .team__arrow-right {
         right: 1%;
+    }
+}
+
+@media (max-width: 415px) {
+    .burger {
+        left: 85%
+    }
+
+    .service__title {
+        font-size: 30px;
+    }
+
+    .fifth-section__text-content {
+        justify-content: center;
+    }
+
+    .third-section__title {
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .third-section__text {
+        padding: 0;
+    }
+
+    .third-section__button {
+        margin: 30px 0;
+    }
+
+    .fourth-section__title {
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .fourth-section__text {
+        padding: 0;
+    }
+
+    .fourth-section__button {
+        margin: 30px 0;
+    }
+
+    .text-content__title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .form_title {
+        font-size: 30px;
+    }
+
+    .form-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .input__button {
+        width: 300px;
+    }
+}
+
+@media (max-width: 370px) {
+    .content-h2 {
+        font-size: 26px;
+        line-height: 50px;
+    }
+
+    .content-p {
+        margin-top: 75px;
+    }
+
+    .footer-content {
+        display: none;
+    }
+    
+    .team__slider__item {
+        padding: 20px;
+    }
+
+    .service__title {
+        font-size: 26px;
+    }
+
+    .fifth-section__text-content {
+        justify-content: center;
+    }
+
+    .third-section__title {
+        font-size: 26px;
+        padding: 0;
+    }
+
+    .third-section__text {
+        padding: 0;
+    }
+
+    .third-section__button {
+        margin: 30px 0;
+    }
+
+    .fourth-section__title {
+        font-size: 26px;
+        padding: 0;
+    }
+
+    .fourth-section__text {
+        padding: 0;
+    }
+
+    .fourth-section__button {
+        margin: 30px 0;
+    }
+
+    .text-content__title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .form_title {
+        font-size: 26px;
     }
 }
